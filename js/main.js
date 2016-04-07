@@ -183,7 +183,7 @@ function update() {
     p.body.velocity.set(0);
     if(playerState == 0)
     {
-        help.text = "";
+        help.text = "Press 1 to Read Minds, 2 to activate alarms, 3 to hypnotize guards.";
         if (cursors.left.isDown)
         {
             p.body.velocity.x = -150;   
