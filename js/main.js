@@ -219,6 +219,10 @@ function update() {
     
     if(playerState == 1)
     {
+        if(target == p)
+        {
+            help.text = "Third Eye/Mind Reading";
+        }
         if (cursors.left.isDown)
         {
             playerState = 0;  
@@ -244,6 +248,7 @@ function update() {
     
      if(playerState == 2)
     {
+        help.text = "Telekinesis";
         if (cursors.left.isDown)
         {
             playerState = 0;  
@@ -264,6 +269,7 @@ function update() {
     
       if(playerState == 3)
       {
+        help.text = "Hypnosis";
         if (cursors.left.isDown)
         {
             playerState = 0;  
